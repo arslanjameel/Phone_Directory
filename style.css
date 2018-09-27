@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+}
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+#wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
+#upper-header{
+	margin-top: 15px;
+	border-bottom: 1px #000000 solid;
+	padding-bottom: 3px;
+}
+#btn_login{
+	margin-top: 5px;
+	height: 30px;
+	width: 80px;
+	background-color: #87888c;
+	color: antiquewhite;
+	
+}
+#menu-bar{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+#menu-bar ul{
+	margin: 0;
+	padding-top: 5px;
+	
+}
+#menu-bar ul li{
+	list-style: none;
+	display: inline;
+	
+}
+#menu-bar ul li a{
+	
+	text-decoration: none;
+	color: #7e7f84;
+	margin: 15px;
+	
+	
+}
+#menu-bar ul li a:hover{
+	color:crimson;
+	}
+
+#menu-bar ul li a:active{
+	color:crimson;
+	}
+
+.body-content{
+	color: #7e7f84;
+}
+.body-content h2{
+	margin-bottom: 20px;
+	
+}
+#inputemail{
+	width: 200px;
+	height: 20px;
+	color: #8f9094;
+	
+}
+#footer{
+	background: #2a2d34;
+	width: 100%;	
+}
+#footer-bar{
+	padding-bottom: 10px;
+}
+#loginpage{
+	padding: 70px 330px ;
+}
+#loginform{
+	height: 500px;
+	width: 550px;
+	background: #585858;
+	border-radius: 8px;
+}
+#loginpage a{
+	text-decoration: none;
+	color: #000000;
+}
+#luname{
+	margin-top: 200px;
+	margin-left: 150px;
+	height: 25px;
+	width: 200px;
+	font-size: 18px;
+}
+#lpass{	
+	margin-left: 150px;
+	height: 25px;
+	width: 200px;
+	font-size: 18px;
+}
+#lbtn{
+	
+	margin-left: 150px;
+	height: 25px;
+	width: 205px;
+	font-size: 18px;
+	background: #f45a40;
+}
